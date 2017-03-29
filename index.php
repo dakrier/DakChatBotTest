@@ -1806,6 +1806,7 @@ Lowe's Companies, Inc. 1000 Lowe's Blvd. Mooresville, NC 28117. <a href="https:/
 </div>
 </div>
 </div>
+<div id="ibm_chat_root"></div>
 </footer>
 
 <!-- /ESI include for /content/lowes/desktop/en_us/_jcr_content/footer.desktop.esi.html at 2017-03-27T3:19:24.611-0400 --></div>
@@ -1928,4 +1929,15 @@ Lowe's Companies, Inc. 1000 Lowe's Blvd. Mooresville, NC 28117. <a href="https:/
 </script><script src="./Lowes_files/satellite-5834ac6964746d55700021d2.js"></script>
 </div><div id="notifier" class="ada screen-reader-only" role="region" aria-atomic="true" aria-live="passive" aria-busy="false" aria-relevant="additions" aria-label="Global"></div><img src="./Lowes_files/saved_resource" style="display:none;" width="1" height="1"><img src="./Lowes_files/9e0fcf49.gif" width="1" height="1" style="display: none;"><div id="liveperson-persist-button" class="sticky sticky-bottom lowes-white"></div><img src="./Lowes_files/saved_resource(1)" style="display:none;" width="1" height="1">
 
-<img src="./Lowes_files/saved_resource(2)" width="1" height="1" style="display: none;"><img width="1" height="1" src="./Lowes_files/o" style="display: none;"><div id="_fsr_swfContainerv2" style="position: absolute; top: 1px; left: 1px; width: 1px; height: 1px; min-width: 1px; min-height: 1px; padding: 0px; margin: 0px; display: block; visibility: visible;"><object width="1" height="1" id="_fsr_swfContainerv2_" name="_fsr_swfContainerv2_" data="./Lowes_files/foresee-transport.swf.download" type="application/x-shockwave-flash"><param name="allowfullscreen" value="true"><param name="allowscriptaccess" value="always"><param name="quality" value="high"><param name="flashvars" value="quality=high&amp;wmode=transparent&amp;allowScriptAccess=always"></object></div><iframe tabindex="-1" aria-hidden="true" role="presentation" title="Intentionally blank" name="lpSS_83688812879" id="lpSS_83688812879" src="./Lowes_files/storage.cross.domain.min.html" style="width: 0px; height: 0px; position: absolute; top: -1000px; left: -1000px;" _fsrb="true"></iframe><div id="criteo-tags-div" style="display: none;"><iframe height="0" width="0" src="./Lowes_files/dis.html" style="display: none;" _fsrb="true"></iframe></div></body></html>
+<img src="./Lowes_files/saved_resource(2)" width="1" height="1" style="display: none;"><img width="1" height="1" src="./Lowes_files/o" style="display: none;"><div id="_fsr_swfContainerv2" style="position: absolute; top: 1px; left: 1px; width: 1px; height: 1px; min-width: 1px; min-height: 1px; padding: 0px; margin: 0px; display: block; visibility: visible;"><object width="1" height="1" id="_fsr_swfContainerv2_" name="_fsr_swfContainerv2_" data="./Lowes_files/foresee-transport.swf.download" type="application/x-shockwave-flash"><param name="allowfullscreen" value="true"><param name="allowscriptaccess" value="always"><param name="quality" value="high"><param name="flashvars" value="quality=high&amp;wmode=transparent&amp;allowScriptAccess=always"></object></div><iframe tabindex="-1" aria-hidden="true" role="presentation" title="Intentionally blank" name="lpSS_83688812879" id="lpSS_83688812879" src="./Lowes_files/storage.cross.domain.min.html" style="width: 0px; height: 0px; position: absolute; top: -1000px; left: -1000px;" _fsrb="true"></iframe><div id="criteo-tags-div" style="display: none;"><iframe height="0" width="0" src="./Lowes_files/dis.html" style="display: none;" _fsrb="true"></iframe></div>
+<script src='https://unpkg.com/@watson-virtual-agent/chat-widget@1.5.0/dist/chat.min.js'></script>
+<script>
+  IBMChat.init({
+    el: 'ibm_chat_root',
+    baseURL: 'https://api.ibm.com/virtualagent/run/api/v1',
+    botID: '5d9ab453-ee8e-4185-8dc6-63641efdc8cc',
+    XIBMClientID: '79af493b-dce5-4b27-80d9-46ce0ee63c45',
+    XIBMClientSecret: 'Y8qE1sT1vJ8iN2jY5hL3xO4aD1qH3qY8oX2uL1gU1eV5tK4uT8'
+  });
+</script>
+</body></html>
